@@ -1,0 +1,124 @@
+@media only screen and (min-width: 0px) {
+    body {
+        height: 100%;
+        width: 100%;
+        background-color: #ffffff;
+        font-family: "Roboto", sans-serif;
+        margin: 0;
+        padding: 0;
+    }
+
+    .container{
+        margin: 0;
+        padding: 0;
+        height: 100vh;
+        width: 100vw;
+        display: flex;
+        flex-direction: column;
+        background-color: #fff;
+    }
+    .izquierda{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        margin: 2rem;
+    }
+
+    .derecha{
+        height: 5rem;
+        width: 5rem;
+        margin-top: 6rem;
+        margin-left: 2rem;
+        background-position: center;
+        background-image: url("./../assets/images/icon-success.svg"); /* Reemplaza 'nueva-imagen.svg' con la ruta de tu nueva imagen */
+        background-size: cover;
+    }
+
+    h1{
+        font-family:  "Roboto-bold", sans-serif;
+        font-weight: 600;
+        font-size: 2.7rem;
+        margin: 0;
+    }
+
+    p{
+        margin-right: 2rem;
+        font-size: 1.2rem;
+    }
+
+    .dismissbutton{
+        margin-top: 16rem;
+        background-color: hsl(234, 29%, 20%);
+        color: #fff;
+        font-size: large;
+        padding: 0.8em;
+        border-radius: 1rem;
+        margin-bottom: 1rem;
+        width: 20rem;
+        transition: box-shadow 0.2s ease; 
+
+    }
+
+
+    .dismissbutton:hover {
+        background: rgb(255,84,118);
+        background: linear-gradient(90deg, rgba(255,84,118,1) 13%, rgba(255,90,101,1) 42%, rgba(255,104,63,1) 59%, rgba(255,105,61,1) 67%);
+        box-shadow: 0px 8px 32px rgb(255,84,118); 
+        cursor: pointer;
+    }
+
+    span{
+        font-weight: 800;
+    }
+}
+
+@media only screen and (min-width: 1000px) and (min-height: 700px) {
+    
+    body {
+        padding: 0;
+        margin: 0;
+        height: 100%;
+        width: 100%;
+        background-color: hsl(235, 18%, 26%);
+    }
+
+    .container {
+        margin-left: 37% !important;
+        padding: 1rem;
+        padding-bottom: 0;
+        margin-top: 11%;
+        border-radius: 3rem;
+        height: 20%;
+        width: 27%;
+    }
+
+    h1{
+        font-size: 3rem;
+    }
+
+    p{
+        font-size: medium;
+    }
+  
+    .izquierda {
+      margin-left: 2rem;
+      padding-left: 1rem;
+    }
+
+    .derecha{
+      margin-top: 1rem;
+      background-image: url("./../assets/images/icon-success.svg"); /* Reemplaza 'nueva-imagen.svg' con la ruta de tu nueva imagen */
+      background-position: center;
+      background-size: cover;
+      height: 4rem;
+      width: 4rem;
+    }
+  
+    .dismissbutton {
+      margin-top: 1rem;
+      width: 100%;
+    }
+
+
+  }
+  
