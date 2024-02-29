@@ -30,7 +30,7 @@
         margin-top: 6rem;
         margin-left: 2rem;
         background-position: center;
-        background-image: url("./../assets/icon-success.svg"); /* Reemplaza 'nueva-imagen.svg' con la ruta de tu nueva imagen */
+        background-image: url("./../assets/images/icon-success.svg"); /* Reemplaza 'nueva-imagen.svg' con la ruta de tu nueva imagen */
         background-size: cover;
     }
 
@@ -107,7 +107,7 @@
 
     .derecha{
       margin-top: 1rem;
-      background-image: url("./../assets/icon-success.svg"); /* Reemplaza 'nueva-imagen.svg' con la ruta de tu nueva imagen */
+      background-image: url("./../assets/images/icon-success.svg"); /* Reemplaza 'nueva-imagen.svg' con la ruta de tu nueva imagen */
       background-position: center;
       background-size: cover;
       height: 4rem;
