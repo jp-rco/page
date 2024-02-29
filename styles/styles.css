@@ -1,0 +1,140 @@
+@media only screen and (min-width: 0px) {
+    body {
+        height: 100%;
+        width: 100%;
+        background-color: #ffffff;
+        font-family: "Roboto", sans-serif;
+        margin: 0;
+        padding: 0;
+    }
+
+    .container{
+        margin: 0;
+        padding: 0;
+        height: 100vh;
+        width: 100vw;
+        display: flex;
+        flex-direction: column;
+        background-color: #fff;
+    }
+    .izquierda{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        margin: 2rem;
+    }
+
+    .derecha{
+        padding: 0;
+        margin: 0;
+        height: 100%;
+        width: 100%;
+        flex: 1;
+        background-position: center;
+        background-image: url("./../assets/images/illustration-sign-up-mobile.svg"); /* Reemplaza 'nueva-imagen.svg' con la ruta de tu nueva imagen */
+        background-size: cover;
+        border-radius: 0 0 2rem 2rem;
+    }
+
+    h1{
+        font-family:  "Roboto-bold", sans-serif;
+        font-weight: 600;
+        font-size: 2.7rem;
+        margin: 0;
+    }
+
+    p{
+        font-size: 1.2rem;
+    }
+
+
+    ul {
+        list-style-type: square;
+        list-style-image: url(./../assets/images/icon-list.svg);
+    }
+
+    .containermail{
+        border: solid rgb(45, 44, 44) 1px;
+        font-size: 1rem;
+        padding: 1rem;
+        width: 18rem;
+    }
+    h2{
+        font-size: 0.9rem;
+    }
+    .submitbutton{
+        margin-top: 1rem;
+        background-color: hsl(234, 29%, 20%);
+        color: #fff;
+        font-size: large;
+        padding: 0.8em;
+        border-radius: 1rem;
+        margin-bottom: 1rem;
+        width: 20rem;
+        transition: box-shadow 0.2s ease; 
+
+    }
+
+
+    .submitbutton:hover {
+        background: rgb(255,84,118);
+        background: linear-gradient(90deg, rgba(255,84,118,1) 13%, rgba(255,90,101,1) 42%, rgba(255,104,63,1) 59%, rgba(255,105,61,1) 67%);
+        box-shadow: 0px 8px 32px rgb(255,84,118); 
+
+    }
+
+    .containermail:hover,
+    .submitbutton:hover {
+    cursor: pointer;
+    }
+}
+
+@media only screen and (min-width: 1000px) and (min-height: 800px) {
+    
+    body {
+        padding: 0;
+        margin: 0;
+        height: 100%;
+        width: 100%;
+        background-color: hsl(235, 18%, 26%);
+    }
+
+    .container {
+        margin-left: 19rem !important;
+        padding: 2rem;
+        margin-top: 6%;
+        border-radius: 1rem;
+        height: 50%;
+        width: 60%;
+        flex-direction: row-reverse;
+    }
+  
+    .row {
+      height: auto;
+    }
+  
+    .izquierda {
+      margin: 0;
+      padding-left: 1rem;
+      padding-right: 2rem;
+    }
+
+  
+    .derecha{
+      height: 35rem;
+      width: 40rem;
+      background-position: center;
+      background-image: url("./../assets/images/illustration-sign-up-desktop.svg"); 
+      background-size: cover;
+      border-radius: 1rem;
+    }
+  
+    .containermail {
+      width: 90%;
+    }
+  
+    .submitbutton {
+      width: 96%;
+    }
+  }
+  
